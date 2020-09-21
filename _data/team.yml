@@ -1,0 +1,14 @@
+- name: Kerk Kee
+  institution: Texas Tech University
+  photo: kee.jpg
+  role: Principal Investigator
+
+- name: Ewa Deelman
+  institution: University of Southern California
+  photo: deelman.jpg
+  role: Co-Principal Investigator
+
+- name: Wendy Whitcup
+  institution: University of Southern California
+  photo: whitcup.jpg
+  role: Project Manager

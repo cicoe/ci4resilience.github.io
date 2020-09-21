@@ -505,6 +505,7 @@ footer {
   }
   .footer-right {
     text-align: right;
+    width: 50% !important;
   }
 }
 
@@ -1550,4 +1551,30 @@ div.post-content .table-wrapper {
   line-height: 1.5em;
   font-size: 2em;
   font-weight: bold;
+}
+
+.team {
+  width: 100%;
+  min-height: 8em;
+  margin-top: 2em;
+}
+
+.team-photo {
+  float: left;
+}
+
+.team-photo img {
+  float: left;
+  max-width: 8em;
+}
+
+.team-info {
+  float: left;
+  margin-left: 1em;
+}
+
+.team-info h1 {
+  font-size: 1.3em;
+  font-weight: bold;
+  margin: 0.5em 0;
 }
