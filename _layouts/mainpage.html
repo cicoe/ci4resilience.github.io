@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<div class="header-img">
+    <div class="header">
+    Leveraging Advanced Cyberinfrastructure and Developing Organizational Resilience for NSF Large Facilities in the
+    Pandemic Era
+    </div>
+</div>
+
+<div class="row" style="padding-left: 0 !important">
+    <div class="col-12 col-lg-12 col-xl-12">
+        <div id="page" class="post pb-5 pr-1 pr-sm-2 pr-md-4 mb-md-4">
+            {% if page.dynamic_title %}
+            <h1 class="dynamic-title">{{ page.title }}</h1>
+            <div class="post-content">
+                {{ content }}
+            </div>
+            {% else %}
+            {{ content }}
+            {% endif %}
+        </div> <!-- #page -->
+    </div><!-- .col-12 -->
+</div>
