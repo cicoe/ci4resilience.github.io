@@ -1582,3 +1582,16 @@ div.post-content .table-wrapper {
 a, a:hover {
   color: #40a8c4 !important;
 }
+
+.video {
+  padding: 1em;
+  border: 1px solid #ccc;
+  box-shadow: #ccc 3px 3px 3px;
+  width: 100%;
+}
+
+.video h1 {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 0.5em 0em;
+}

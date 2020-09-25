@@ -12,6 +12,12 @@
   icon: "fas fa-users"
   path: tabs
   url: team
+
+- name: Relevant Materials
+  icon: "fas fa-external-link-alt"
+  path: tabs
+  url: materials
+
 #-
 #  name: "Tags"
 #  icon: "fas fa-tags"
