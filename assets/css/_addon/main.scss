@@ -121,12 +121,12 @@ $sidebar-display: "sidebar-display";
     height: $tab-height;
     &:hover {
       .nav-link {
-        color: #f8f9facf;
+        color: #40a8c4 !important;
       }
     }
     &.active {
       .nav-link {
-        color: #fcfcfc;
+        color: #ffffff !important;
       }
     }
   }
@@ -1577,4 +1577,8 @@ div.post-content .table-wrapper {
   font-size: 1.3em;
   font-weight: bold;
   margin: 0.5em 0;
+}
+
+a, a:hover {
+  color: #40a8c4 !important;
 }

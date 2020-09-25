@@ -10,7 +10,7 @@ title: Team
         <img src="/assets/img/{{ m.photo }}"/>
     </div>
     <div class="team-info">
-        <h1>{{ m.name }}</h1>
+        <h1><a href="{{ m.website }}" target="_blank">{{ m.name }}</a></h1>
         <div>
             <span>{{ m.role }}</span><br/>
             <span style="color: #666">{{ m.institution }}</span>
