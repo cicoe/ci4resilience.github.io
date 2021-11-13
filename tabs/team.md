@@ -12,7 +12,7 @@ title: Team
     <div class="team-info">
         <h1><a href="{{ m.website }}" target="_blank">{{ m.name }}</a></h1>
         <div>
-            <span>{{ m.role }}</span><br/>
+            <span>{{ m.role }}&nbsp;</span><br/>
             <span style="color: #666">{{ m.institution }}</span>
         </div>
     </div>
