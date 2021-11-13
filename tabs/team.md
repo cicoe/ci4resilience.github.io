@@ -12,7 +12,7 @@ title: Team
     <div class="team-info">
         <h1>{% if m.website.size > 0 %}<a href="{{ m.website }}" target="_blank">{% endif %}{{ m.name }}{% if m.website.size > 0 %}</a>{% endif %}</h1>
         <div>
-            <span style="color: #666">{{ m.institution }}</span>
+            <span style="color: #666">{{ m.institution }}</span><br/>
             <span>{{ m.role }}&nbsp;</span><br/>
         </div>
     </div>
