@@ -10,8 +10,16 @@
   role: Co-Principal Investigator
   website: http://deelman.isi.edu
 
-- name: Wendy Whitcup
+- name: Cassandra Hayes
+  institution: Texas Tech University
+  photo: hayes.jpg
+
+- name: Alex Olshansky
+  institution: Texas Tech University
+  photo: olshansky.jpg
+
+- name: Ciji Davis
   institution: University of Southern California
-  photo: whitcup.jpg
-  role: Project Manager
-  website: https://scitech.isi.edu/staff/wendy-whitcup/
+  photo: davis.jpg
+  role: Project Specialist
+
