@@ -10,10 +10,10 @@ title: Team
         <img src="/assets/img/{{ m.photo }}"/>
     </div>
     <div class="team-info">
-        <h1><a href="{{ m.website }}" target="_blank">{{ m.name }}</a></h1>
+        <h1>{% if m.website.size > 0 %}<a href="{{ m.website }}" target="_blank">{% endif %}{{ m.name }}{% if m.website.size > 0 %}</a>{% endif %}</h1>
         <div>
-            <span>{{ m.role }}&nbsp;</span><br/>
             <span style="color: #666">{{ m.institution }}</span>
+            <span>{{ m.role }}&nbsp;</span><br/>
         </div>
     </div>
 </div>
